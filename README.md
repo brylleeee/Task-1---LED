@@ -21,15 +21,17 @@ This Arduino code is a basic example that demonstrates how to blink an LED conne
 
 ## Code Explanation:
 
-setup(): This function runs once when the Arduino board starts up.
+### setup(): This function runs once when the Arduino board starts up.
 
 pinMode(13, OUTPUT): Configures pin 13 as an output to control the LED.
-loop(): This function runs repeatedly in a loop.
+
+### loop(): This function runs repeatedly in a loop.
 
 digitalWrite(13, HIGH): Turns on the LED by setting pin 13 to high.
 delay(2000): Pauses the program for 2 seconds.
 digitalWrite(13, LOW): Turns off the LED by setting pin 13 to low.
 delay(2000): Pauses the program for 2 seconds.
-Functionality:
+
+## Functionality:
 
 The LED connected to pin 13 will blink on and off every 2 seconds.
